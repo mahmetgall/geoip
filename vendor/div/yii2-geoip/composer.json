@@ -1,0 +1,20 @@
+{
+    "name": "div/yii2-geoip",
+    "description": "Yii2 расширение для определения города пользователя (используется сервис ipgeobase.ru)",
+    "version": "1.0.0",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Deryabin",
+            "email": "backend@div26.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "div\\geoip\\": ""
+        }
+    }
+}
